@@ -1,0 +1,23 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "gotestsum: current package",
+      "type": "shell",
+      "command": "gotestsum --format testname -- .",
+      "options": {
+        "cwd": "${fileDirname}"
+      },
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "problemMatcher": [],
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared",
+        "focus": false
+      }
+    }
+  ]
+}

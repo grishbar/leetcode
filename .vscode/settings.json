@@ -1,0 +1,14 @@
+{
+  // Cursor Tab — серый текст, который принимается Tab
+  "editor.inlineSuggest.enabled": false,
+  "cursor.completions.enabled": false,
+  "cursor.cpp.disabledLanguages": [
+    "go",
+    "gomod",
+    "gowork",
+    "plaintext",
+    "markdown",
+    "json",
+    "jsonc"
+  ]
+}
