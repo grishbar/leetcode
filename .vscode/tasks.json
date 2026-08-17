@@ -4,7 +4,7 @@
     {
       "label": "gotestsum: current package",
       "type": "shell",
-      "command": "gotestsum --format testname -- .",
+      "command": "\"$(go env GOPATH)/bin/gotestsum\" --format testname -- .",
       "options": {
         "cwd": "${fileDirname}"
       },
